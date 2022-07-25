@@ -1,0 +1,112 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Check\nberat badan ideal anda"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/etinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:hint="Masukan tinggi anda (cm)"
+            android:inputType="number"
+            android:textColorHint="#474545"
+            />
+
+        <EditText
+            android:id="@+id/eberat"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan berat anda (kg)"
+            android:textColorHint="#474545"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/hitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hitung"
+            android:textColor="#FFFFFF"
+            android:theme="@style/buttonstyle1"
+            />
+
+        <TextView
+            android:background="@drawable/border"
+            android:id="@+id/keterangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="30dp"
+            android:padding="12dp"
+            android:textStyle="bold"
+            tools:text="Berat anda adalah" />
+        <Button
+            android:id="@+id/add_record"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="SAVE DATA"
+            android:theme="@style/buttonstyle1"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="Exit"
+            android:theme="@style/buttonstyle1"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Show data"
+            android:theme="@style/buttonstyle1"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btntips"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tips"
+            android:theme="@style/buttonstyle1"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</RelativeLayout>

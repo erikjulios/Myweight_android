@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ApplicationDataStorage</string>
+    <string name="empty_list_text">Data Tidak Ditemukan</string>
+    <string name="add_record">Tambah Data</string>
+    <string name="enter_kelas">Masukkan Nama</string>
+    <string name="enter_nama">Masukkan Kelas</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_update">UPDATE</string>
+</resources>
